@@ -673,12 +673,17 @@ html,body{
     justify-content: center;
     align-items: center;
     margin-left: 7px;
-
+    transition: all 0.3s ease;
 }
 .footer-box .icon a{
     text-decoration: none;
     font-size: 1.2rem;
     color: #fff;
+
+}
+.footer-box .icon:hover{
+    box-shadow: 0 0 8px 1px #ACB1C5;
+
 
 }
 .footer-box h2{
@@ -692,7 +697,7 @@ html,body{
 .footer-box li a{
     text-decoration: none;
     color: #fff;
-
+    transition: all 0.2s ease;
 }
 .footer-box li a:hover{
     background-color: #EEEFFF;
